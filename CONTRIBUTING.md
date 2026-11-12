@@ -69,11 +69,20 @@ answers it, please open an issue.
 
 ## Licence
 
-**This repository currently has no licence, which means default copyright applies and
-nobody has the legal right to reuse or redistribute the contents.** That needs fixing
-before outside contributions make sense. Until a licence is added, treat anything you
-contribute as subject to whatever licence the owner later chooses, and raise it in your
-issue if that is a problem for you.
+This repository is MIT licensed. See [`LICENSE`](LICENSE). By submitting a contribution
+you agree it is released under the same terms.
+
+Two things worth knowing, stated plainly rather than buried:
+
+- **MIT carries no express patent grant.** It covers copyright, not patents. If you hold
+  or expect to file a patent that reads on something you contribute here, the MIT licence
+  does not settle that, and you should raise it in your issue before contributing.
+- **The design in this repository is already public.** In most jurisdictions public
+  disclosure before filing destroys patent novelty, and the United States allows a
+  12-month grace period for an inventor's own disclosure. If you are contributing on
+  behalf of an institution with a technology transfer office, check with them first.
+
+None of this is legal advice.
 
 ## Conduct
 

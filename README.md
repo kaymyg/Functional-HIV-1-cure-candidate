@@ -63,8 +63,11 @@ Two worth singling out:
   cheapest experiment that could end this program, and everything here is downstream of
   an answer nobody has.
 
-This repository has no licence yet, so default copyright applies and reuse rights are not
-granted. That should be settled before outside contributions.
+## Licence
+
+MIT, see [`LICENSE`](LICENSE). Note that MIT covers copyright and carries no express
+patent grant, and that the design here is already publicly disclosed. See
+[`CONTRIBUTING.md`](CONTRIBUTING.md) if that affects you.
 
 ## Disclaimer
 
