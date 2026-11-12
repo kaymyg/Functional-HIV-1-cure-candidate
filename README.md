@@ -9,6 +9,8 @@ approach to functional HIV-1 cure.
 | --- | --- |
 | [`docs/LNP-BT01-preclinical-development-package.md`](docs/LNP-BT01-preclinical-development-package.md) | The main package: design review, model audit, corrected architecture, Target Product Profile, PK/PD model spec, IND-enabling plan, risk register and gates |
 | [`analysis/verify_model.py`](analysis/verify_model.py) | Verification script that re-runs the original PK/PD models and demonstrates the structural defects documented in the model audit |
+| [`docs/OPEN-PROBLEMS.md`](docs/OPEN-PROBLEMS.md) | The unresolved questions, split into what needs a laptop and what needs a laboratory, each with acceptance criteria |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to contribute, and the one rule about unmeasured numbers |
 
 ## Summary of findings
 
@@ -45,3 +47,26 @@ downstream work is commissioned.
 pip install numpy scipy
 python3 analysis/verify_model.py
 ```
+
+## Contributing
+
+Scrutiny is more useful here than volume. See [`CONTRIBUTING.md`](CONTRIBUTING.md) and
+pick something from [`docs/OPEN-PROBLEMS.md`](docs/OPEN-PROBLEMS.md).
+
+Two worth singling out:
+
+- **OP-1, LTR target site conservation outside subtype B.** Needs only public Los Alamos
+  sequence data and a laptop. If the recognition site is not conserved across subtypes C,
+  A1 and D, this is a therapy for a minority of the global epidemic, and most of the rest
+  of the document stops mattering. Nobody has checked.
+- **OP-6, the 90-day methylation durability experiment.** Needs a wet lab. It is the
+  cheapest experiment that could end this program, and everything here is downstream of
+  an answer nobody has.
+
+This repository has no licence yet, so default copyright applies and reuse rights are not
+granted. That should be settled before outside contributions.
+
+## Disclaimer
+
+Concept-stage design work. Not a clinical protocol, not medical advice, and not tested in
+any biological system.
