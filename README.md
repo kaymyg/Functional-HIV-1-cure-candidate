@@ -50,6 +50,8 @@ python3 analysis/verify_model.py
 
 ## Contributing
 
+Looking for something to work on? See [HELP_WANTED.md](HELP_WANTED.md).
+
 Scrutiny is more useful here than volume. See [`CONTRIBUTING.md`](CONTRIBUTING.md) and
 pick something from [`docs/OPEN-PROBLEMS.md`](docs/OPEN-PROBLEMS.md).
 
